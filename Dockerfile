@@ -5,4 +5,4 @@ COPY ./src /app
 WORKDIR /app
 
 ENTRYPOINT ["/usr/local/bin/python"]
-CMD ["fashion_mnist_classify.py"]
+CMD ["style_transfer.py"]
