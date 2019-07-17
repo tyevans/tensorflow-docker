@@ -11,4 +11,4 @@ RUN pip install -r filtered-requirements.txt
 COPY ./src /app
 
 ENTRYPOINT ["/usr/local/bin/python"]
-CMD ["style_transfer.py"]
+CMD ["basic.py"]
